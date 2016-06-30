@@ -1,0 +1,11 @@
+def print_digits(number):
+    if (number>=0 and number <100):
+        return "tens digit is " + str(number//10)+ "    " +"ones digit is " + str(number%10)
+    else:
+        return "Error: Input is not a two-digit number."
+    
+def test(number):
+    print print_digits(number)
+    
+test(21)
+    
