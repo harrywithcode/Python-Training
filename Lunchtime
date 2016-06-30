@@ -1,0 +1,11 @@
+def is_lunchtime(time, is_am):
+    return (time==11 and is_am) or (time==12 and not is_am)
+def test(time, is_am):
+    if is_lunchtime(time, is_am):
+        print "this is lunch time"
+    else:
+        print "this is not lunch time"
+            
+test(11,True)
+test(10, False)
+      
