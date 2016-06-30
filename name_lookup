@@ -1,0 +1,15 @@
+def name_lookup(name):
+    if name=="Joe":
+        return "first name is Warron"
+    elif name=="Scott":
+        return "first name is Rixner"
+    elif name == "Harry":
+        return "first name is Bohao"
+    else:
+        return "Error"
+    
+def test(name):
+    print name_lookup(name)
+    
+test("Harry")
+test("harry")
