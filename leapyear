@@ -1,0 +1,12 @@
+def is_leapyear(year):
+    return( year%4==0 and (year%100 !=0 or year%400 ==0))
+
+def test(year):
+    if is_leapyear(year):
+        print "this year is a leap year"
+        
+    else:
+        print "this year is not a leap year"
+        
+test(2000)
+test(2015)
