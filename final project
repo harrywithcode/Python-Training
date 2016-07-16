@@ -1,3 +1,4 @@
+#paddle可以出屏幕，需要debug
 import simplegui
 import random
 # Initialize globals
