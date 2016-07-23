@@ -7,7 +7,7 @@ def count_odd(numbers):
             count += 1
     return count
 
-def check_odd(numbers):
+def check_odd(numbers)://python不能对一个list里面重复的数字进行操作，所以最后一个7不能被remove，只有第一个7可以被remove
     for num in numbers:
         if num % 2 == 1:
             return True
