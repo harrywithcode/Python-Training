@@ -19,7 +19,7 @@ def click(pos):
     remove = []
     for ball in ball_list:
         if distance(ball, pos) < ball_radius:
-            remove.append(ball)
+            remove.append(ball) //don't remove directly, remove later
 
     if remove == []:
         ball_list.append(pos)
