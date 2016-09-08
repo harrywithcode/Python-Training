@@ -1,6 +1,6 @@
 # Compute whether a person is cool.
 
-###################################################
+##################################################
 
 def is_cool(name):
 	"""Returns whether the person is cool."""
